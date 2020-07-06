@@ -1,0 +1,25 @@
+{
+    "name": "hello-world-11062019/test-package",
+    "description": "test package",
+    "homepage": "https://github.com/krasickimarek136/semindo",
+	"keywords": ["kancelaria prawna"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kancelaria prawna",
+            "homepage": "https://mcp-kancelaria.pl/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "movies123\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/dom-crawler": "^3.3",
+        "symfony/css-selector": "^3.3"
+    },
+    "minimum-stability": "dev"
+}
